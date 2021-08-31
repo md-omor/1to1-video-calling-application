@@ -1,0 +1,30 @@
+{
+	"name": "videochat",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"build": "cd client && npm install && npm run build"
+	},
+	"engines": {
+		"node": "14.17.3"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@material-ui/core": "^4.12.3",
+		"@material-ui/icons": "^4.11.2",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.7",
+		"react-router-dom": "^5.2.1",
+		"react-toast-notifications": "^2.5.1",
+		"serve": "^11.3.2",
+		"simple-peer": "^9.11.0",
+		"socket.io": "^4.0.0",
+		"socket.io-client": "^4.2.0"
+	}
+}
